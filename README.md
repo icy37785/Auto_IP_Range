@@ -1,21 +1,21 @@
 # 全自动ip段拉取工具
 
-Netflix IP合集:
+Netflix IP 合集 :
 
-- GitHub 默认版本:https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/Netflix.txt
-- 免翻墙:https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/Netflix.txt
+- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/Netflix.txt
+- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/Netflix.txt
 
-AWS IP 合集:
+AWS IP 合集 :
 
-- GitHub 默认版本:https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/Amazon.txt
-- 免翻墙:https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/Amazon.txt
+- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/Amazon.txt
+- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/Amazon.txt
 
 Telegram IP 合集:
 
-- GitHub 默认版本:https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/Telegram.txt
-- 免翻墙:https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/Telegram.txt
+- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/Telegram.txt
+- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/Telegram.txt
 
-全部 IP 合集:
+全部 IP 合集 :
 
-- GitHub 默认版本:https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/ALL_IP.txt
-- 免翻墙:https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/ALL_IP.txt
+- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/main/ALL_IP.txt
+- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range@main/ALL_IP.txt
