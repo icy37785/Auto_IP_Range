@@ -1,0 +1,48 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Generate-IP_Range-CI.yml
+
+on:
+  schedule:
+    - cron: 0 16 * * *
+  watch:
+    types: [started]
+  #push:
+  #  branches: 
+  #    - master
+      
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@master
+    
+    - name: Init build dependencies
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        sudo -E apt-get update -y
+        sudo -E apt-get install -y aggregate whois
+        
+    - name: Run generate script
+      env: 
+        LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
+      run: | 
+        chmod +x ./iprange.sh
+        bash ./iprange.sh
+        rm -f ./update.txt
+        echo `date +%Y/%m/%d\ %H:%M:%S\ %Z` >> ./update.txt
+      
+    - name: Commit file
+      run: |
+        git config --global user.email icy37785@gmail.com
+        git config --global user.name icy37785
+        git add .
+        git commit -m "Update `date +%Y/%m/%d\ %H:%M:%S\ %Z`" -a
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
