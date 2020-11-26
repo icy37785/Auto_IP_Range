@@ -32,9 +32,13 @@ cat telegram.tmp | aggregate -q >Telegram.txt
 
 cat netflix.tmp amazon.tmp telegram.tmp | aggregate -q >ALL_IP.txt
 
+curl -s "https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest" >apnic.txt
+cat apnic.txt | awk -F\| '/CN\|ipv6/{printf "%s/%d\n",$4,$5}' |cat >> Apnic_ipv6.txt
+
 rm ip_ranges.zip
 rm netflix.tmp
 rm netflix_ranges.txt
 rm amazon.tmp
 rm telegram.tmp
 rm telegram_ranges.txt
+rm apnic.txt
