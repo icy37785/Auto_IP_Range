@@ -5,6 +5,7 @@ if [ -e ALL_IP.txt ] ; then rm ALL_IP.txt ; fi
 if [ -e Amazon.txt ] ; then rm Amazon.txt ; fi
 if [ -e Netflix.txt ] ; then rm Netflix.txt ; fi
 if [ -e Telegram.txt ] ; then rm Telegram.txt ; fi
+if [ -e Apnic_ipv6.txt ] ; then rm Apnic_ipv6.txt ; fi
 
 curl -s "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=${LICENSE_KEY}&suffix=zip" >ip_ranges.zip
 for as in $(unzip -p ip_ranges.zip `unzip -l ip_ranges.zip |grep -e GeoLite2-ASN-Blocks-IPv4.csv | sed 's/^.\{30\}//g'` | grep -i netflix | cut -d"," -f2 | sort -u)
