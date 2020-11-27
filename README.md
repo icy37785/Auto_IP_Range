@@ -17,8 +17,8 @@ Telegram IP 合集:
 
 Apnic_ipv6 IP 合集:
 
-- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/master/Apnic_ipv6.txt
-- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range/Apnic_ipv6.txt
+- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/master/China_ipv6.txt
+- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range/China_ipv6.txt
 
 全部 IP 合集 :
 
