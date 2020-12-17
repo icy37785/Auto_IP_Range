@@ -15,6 +15,11 @@ Telegram IP 合集:
 - GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/master/Telegram.txt
 - 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range/Telegram.txt
 
+Apnic_ipv4 IP 合集:
+
+- GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/master/China_ipv4.txt
+- 免翻墙 : https://cdn.jsdelivr.net/gh/icy37785/Auto_IP_Range/China_ipv4.txt
+
 Apnic_ipv6 IP 合集:
 
 - GitHub 默认版本 : https://raw.githubusercontent.com/icy37785/Auto_IP_Range/master/China_ipv6.txt
