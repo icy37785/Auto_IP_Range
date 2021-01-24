@@ -4,7 +4,7 @@ name: Generate-IP_Range-CI.yml
 
 on:
   schedule:
-    - cron: 0 16 */2 * *
+    - cron: 0 16 */5 * *
   watch:
     types: [started]
   #push:
